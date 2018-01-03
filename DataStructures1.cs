@@ -34,16 +34,16 @@
 
 	            if(arr != null && arr.Count()>0)
 	            {
-			var numberList = arr.ToList(); 
-			numberList.Reverse();
-			string output = string.Empty; 
-			numberList.ForEach(number =>
-			{
-				output += string.Format("{0} ", number);
-			});
-			output = output.TrimEnd();
-			Console.WriteLine(output);
-			Console.ReadKey();
+					var numberList = arr.ToList(); 
+					numberList.Reverse();
+					string output = string.Empty; 
+					numberList.ForEach(number =>
+					{
+						output += string.Format("{0} ", number);
+					});
+					output = output.TrimEnd();
+					Console.WriteLine(output);
+					Console.ReadKey();
 	            }
 
 	        }
